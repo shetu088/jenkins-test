@@ -1,0 +1,178 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-26T10:54:34.105Z",
+        "line": 3,
+        "name": "Postive login scenario",
+        "description": "",
+        "id": "login-feature;postive-login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1432295600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepdef.Loginstep.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user enters username \u0026 password",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user clicks on submit button",
+            "match": {
+              "location": "stepdef.Loginstep.user_clicks_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user is on home Page",
+            "match": {
+              "location": "stepdef.Loginstep.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-26T10:54:35.608Z",
+        "line": 21,
+        "name": "Negative login scenario",
+        "description": "",
+        "id": "login-feature;negative-login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 988458000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepdef.Loginstep.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "user enters \"\u003cusername\u003e\" \u0026 \"\u003cpassword\u003e\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 989500,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user clicks on submit button",
+            "match": {
+              "location": "stepdef.Loginstep.user_clicks_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user is on home Page",
+            "match": {
+              "location": "stepdef.Loginstep.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-26T10:54:36.604Z",
+        "line": 22,
+        "name": "Negative login scenario",
+        "description": "",
+        "id": "login-feature;negative-login-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1153771600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepdef.Loginstep.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "user enters \"\u003cusername\u003e\" \u0026 \"\u003cpassword\u003e\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997600,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user clicks on submit button",
+            "match": {
+              "location": "stepdef.Loginstep.user_clicks_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998700,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user is on home Page",
+            "match": {
+              "location": "stepdef.Loginstep.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/login.feature",
+    "tags": []
+  }
+]

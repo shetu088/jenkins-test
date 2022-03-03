@@ -1,0 +1,33 @@
+package practice;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class ArrayListTest {
+	
+	String str[] = {"Sunil-34-45-56","Shreshtha-65-67-89","Pranjal-56-45-67"};
+	ArrayList<String>list;
+	
+	ArrayListTest()
+	{
+		list = new ArrayList(Arrays.asList(str));
+	}
+	
+	
+	public String result()
+	{
+		for(int i = 0 ; i<list.size();i++)
+		{
+			String temp[] = list.get(i).split("-");
+			System.out.println(temp);
+		}
+		//return 0;
+		return null;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

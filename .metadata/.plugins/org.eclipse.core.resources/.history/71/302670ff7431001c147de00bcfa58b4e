@@ -1,0 +1,67 @@
+package practice;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class RemoveCollection {
+
+	
+	List<Integer> list;
+	List<Integer> list1;
+	
+	RemoveCollection()
+	{
+	    list = new ArrayList<Integer>();
+	    list1 = new ArrayList<Integer>();
+	}
+	
+	public void addele()
+	{
+		list.add(3);
+		list.add(1);
+		list.add(11);
+		list.add(19);
+		list.add(17);
+		list.add(19);
+		
+		
+	}
+	
+	public List result()
+	{
+		
+		
+		Iterator it = list.iterator();
+		
+		int count = 0 ;
+		while(it.hasNext())
+			
+			
+		{   
+			int i = (int) it.next();
+			System.out.println(it.next());
+			if(list.get(i)%3==0)
+			{
+				
+			    list.remove(i);
+			    
+			}
+			  
+			list.addAll(list1);
+		}
+		
+		
+		return list;
+		
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		RemoveCollection  rc = new RemoveCollection();
+		rc.addele();
+		System.out.println(rc.result());
+	}
+
+}

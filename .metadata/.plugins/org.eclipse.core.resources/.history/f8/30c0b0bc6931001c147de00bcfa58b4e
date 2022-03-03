@@ -1,0 +1,60 @@
+package practice;
+
+import java.util.HashMap;
+
+public class MapDemo {
+	
+	//Given a method with a HasMap<int,float> as input. 
+	//Write code to find out average of all values whose 
+	//keys are even numbers. Round the average to two 
+	//decimal places and return as output.
+
+
+			//Example:
+
+			//Input: {1:2.3,2:4.1,6:6.2}
+
+			//Output: (4.1+6.2)/2=10.3/2=5.15
+	
+	
+	HashMap<Integer,Double>list;
+	
+	MapDemo()
+	{
+		list = new HashMap<Integer, Double>();
+	}
+	
+	public void add()
+	{
+		list.put(1,2.3);
+		list.put(2, 4.1);
+		list.put(6,6.2);
+		
+	}
+	
+	public Double result()
+	{
+		Double sum = 0.0;
+		for(int i = 0 ; i <list.size(); i++)
+		{
+			
+			System.out.println(list.get(i));
+			
+			if(i%2==0)
+			{    System.out.println("resultset");
+				sum =  sum + list.get(i);
+			}
+		}
+		
+		return sum;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		MapDemo md = new MapDemo();
+		md.add();
+		md.result();
+	}
+
+}

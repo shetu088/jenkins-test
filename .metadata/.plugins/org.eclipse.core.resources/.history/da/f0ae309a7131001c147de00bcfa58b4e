@@ -1,0 +1,50 @@
+package practice;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class RemoveCollection {
+
+	
+	List list;
+	List list1;
+	
+	RemoveCollection()
+	{
+	    list = new ArrayList();
+	    list1 = new ArrayList();
+	}
+	
+	public void addele()
+	{
+		list.add(3);
+		list.add(1);
+		list.add(11);
+		list.add(19);
+		list.add(17);
+		list.add(19);
+		
+	}
+	
+	public List result()
+	{
+		for(int i : list)
+		{
+			if(i)
+			System.out.println(i);
+			
+		}
+		return list;
+		
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		RemoveCollection  rc = new RemoveCollection();
+		rc.addele();
+		rc.result();
+	}
+
+}

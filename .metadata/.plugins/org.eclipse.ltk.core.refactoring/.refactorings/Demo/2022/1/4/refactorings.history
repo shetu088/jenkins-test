@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;practice.removeoccurenceofagivencharacter&apos; to &apos;occurenceofagivencharacter&apos;&#x0D;&#x0A;- Original project: &apos;Demo&apos;&#x0D;&#x0A;- Original element: &apos;practice.removeoccurenceofagivencharacter&apos;&#x0D;&#x0A;- Renamed element: &apos;practice.occurenceofagivencharacter&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;removeoccurenceofagivencharacter&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;practice{removeoccurenceofagivencharacter.java[removeoccurenceofagivencharacter" matchStrategy="1" name="occurenceofagivencharacter" qualified="false" references="true" similarDeclarations="false" stamp="1642354916832" textual="false" version="1.0"/>
+</session>
